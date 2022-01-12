@@ -1,0 +1,33 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "" 
+        },
+        "adminUsername": {
+            "value": "dbadmin"
+        },
+        "adminPasswordOrKey": {
+            "value": ""
+        },
+        "vmSize": {
+            "value": "Standard_F2s_v2"
+        },
+        "vmName": {
+            "value": ""
+        },
+        "SubnetName": {
+            "value": "snt-ProdPublic-eus2"
+        },
+        "virtualNetworkResourceGroup": {
+            "value": "rgp-allprod-prod-eus2"
+        },
+        "virtualNetworkName": {
+            "value": "vn-Prod-eus2"
+        },
+        "imageRG": {
+            "value": "rg-DSD-BGU-prod-eus2"
+        }
+    }
+}
